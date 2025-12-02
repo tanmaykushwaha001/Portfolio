@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO HI KAHDE LADLE</title>
+    
+
+    <style>
+
+        p{
+            font-size: 1.3rem;
+            line-height: 1.8;
+            color: #555;
+            text-align: center;
+            max-width: 700px;
+            margin: 30px auto;
+        }
+            
+
+        
+
+        .head{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            border: solid;
+            border-radius: 5px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            
+            transition: padding .5s, font-size .5s , border-radius .5s;
+            margin-bottom: 40px;
+            border-width: 4px;
+            
+        }
+
+        .head:hover{
+
+            padding-top: 25px;
+            padding-bottom: 25px;
+            background-color: black;
+            color: aliceblue;
+            font-size: 35px;
+            border-radius: 10px;
+            
+        }
+
+        .me{
+            width: 250px;;
+            border-radius: 25%;
+            border: solid;
+            border-width:10px;
+            display: block;
+            margin: auto;
+            transition: width .5s , border-width .5s , border-radius .5s ;
+            
+            
+        
+            
+            
+        }
+
+        .me:hover{
+             width:300px;
+            border-radius: 40px;
+            border: solid;
+            border-width:4px;
+            display: block;
+            margin: auto;
+            
+
+        }
+
+        .contact{
+        background-color: rgb(255, 214, 79);
+        border: none;
+        height: 35px;
+        width: 135px;
+        border-radius: 17px;
+        font-size: 17px;
+        cursor: pointer;
+        transition: background .5s, width .5s , height .5s 
+        
+
+    }
+
+     .contact:hover{
+        
+         background-color: black;
+        color:  rgb(255, 214, 79);
+        width: 150px;
+        height: 50px;
+        border-radius: 25px;
+        font-size: 22px;
+        display: inline-block;
+
+
+    }
+
+    .contact:active{
+
+        background-color: black;
+        color:  rgb(255, 214, 79);
+        width: 150px;
+        height: 50px;
+        border-radius: 25px;
+        font-size: 22px;
+        opacity: .5;
+
+    
+    }
+
+
+    .INFO{
+         background-color: rgb(230, 166, 28);
+        border: none;
+        height: 35px;
+        width: 120px;
+        border-radius: 17px;
+       
+        font-size: 17px;
+        cursor: pointer;
+        transition: background .5s, width .5s , height .5s ;
+        
+        
+        
+    }
+
+    .INFO:hover{
+         background-color: black;
+        color:  rgb(230, 166, 28);
+        width: 150px;
+        height: 50px;
+        border-radius: 25px;
+        font-size: 22px;
+        
+        
+
+    }
+
+    .INFO:active{
+         background-color: black;
+        color:  rgb(230, 166, 28);
+        width: 150px;
+        height: 50px;
+        border-radius: 25px;
+        font-size: 22px;
+        opacity: .5;
+
+    }
+
+
+
+    .Linkdin{
+        background-color: rgb(255, 214, 79);
+        border: none;
+        height: 35px;
+        width: 135px;
+        border-radius: 17px;
+        
+        font-size: 17px;
+        cursor: pointer;
+        transition: background .5s, width .5s , height .5s ;
+    
+        
+
+    }
+
+     .Linkdin:hover{
+        
+         background-color: black;
+        color:  rgb(255, 214, 79);
+        width: 150px;
+        height: 50px;
+        border-radius: 25px;
+        font-size: 22px;
+
+
+    }
+
+    .Linkdin:active{
+
+        background-color: black;
+        color:  rgb(255, 214, 79);
+        width: 150px;
+        height: 50px;
+        border-radius: 25px;
+        font-size: 22px;
+        opacity: .5;
+
+    
+    }
+
+    .git{
+         background-color: rgb(230, 166, 28);
+        border: none;
+        height: 35px;
+        width: 120px;
+        border-radius: 17px;
+        font-size: 17px;
+        cursor: pointer;
+        transition: background .5s, width .5s , height .5s ;
+        
+        
+        
+        
+        
+    }
+
+    .git:hover{
+         background-color: black;
+        color:  rgb(230, 166, 28);
+        width: 150px;
+        height: 50px;
+        border-radius: 25px;
+        font-size: 22px;
+        
+
+    }
+
+    .git:active{
+         background-color: black;
+        color:  rgb(230, 166, 28);
+        width: 150px;
+        height: 50px;
+        border-radius: 25px;
+        font-size: 22px;
+        opacity: .5;
+
+    }
+
+    .container{
+        
+            max-width: 900px;
+            margin: 0 auto;
+            background: rgb(251, 249, 249);
+            border-radius: 20px;
+            padding: 50px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        
+    }
+
+     body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+
+         .button-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .head2{
+            background-color: #555;
+            border-radius: 4px;
+            padding-left: 15px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            color: aliceblue;
+            margin-top: 50px;
+            
+        }
+
+        .container2{
+             max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 50px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            margin-top: 40px;
+        }
+        .travel{
+            width: 50%;
+            border-radius: 20px;
+            display: block;
+            margin-bottom: 15px;
+            transition: width .5s;
+        }
+        .travel:hover{
+            width: 60%;
+            border-radius: 20px;
+            display: block;
+            margin-bottom: 15px;
+        }
+
+        .Visit-travel{
+             background-color: rgb(255, 214, 79);
+        border: none;
+        height: 35px;
+        width: 135px;
+        border-radius: 17px;
+        font-size: 17px;
+        cursor: pointer;
+        transition: background .5s, width .5s , height .5s 
+        
+        
+        
+    
+
+        }
+
+        .Visit-travel:hover{
+             background-color: black;
+        color:  rgb(255, 214, 79);
+        width: 150px;
+        height: 50px;
+        border-radius: 25px;
+        font-size: 22px;
+        display: inline-block;
+
+        }
+
+        .Visit-travel:active{
+            background-color: black;
+        color:  rgb(255, 214, 79);
+        width: 150px;
+        height: 50px;
+        border-radius: 25px;
+        font-size: 22px;
+        opacity: .5;
+        }
+
+        .hotel-img{
+            width: 50%;
+            margin-top: 50px;
+            border-radius: 20px;
+            display: block;
+            margin-bottom: 15px;
+            transition: width .5s;
+        }
+
+        .hotel-img:hover{
+            width: 60%;
+            margin-top: 50px;
+            border-radius: 20px;
+            display: block;
+            margin-bottom: 15px;
+        }
+
+
+
+        .contact-box{
+           max-width: 900px;
+            margin: 0 auto;
+            background: rgb(140, 201, 201);
+            border-radius: 20px;
+            padding: 50px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            opacity: .7;
+
+        }
+
+        .search{
+            border-radius: 5px;
+            border: none;
+            margin-bottom: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            display: block;
+            
+        
+        }
+
+        .Submit{
+            border: none;
+            border-radius: 5px;
+            height: 40px;
+            cursor: pointer;
+            font-size: 18px;
+            background-color: rgb(40, 40, 40);
+            color: aliceblue;
+            transition: height .5s , width ;
+            
+
+           
+        }
+
+        .Submit:hover{
+            border: none;
+            border-radius: 5px;
+            height: 60px;
+           
+            cursor: pointer;
+            font-size: 18px;
+            background-color: rgb(40, 40, 40);
+            color: aliceblue;
+        }
+
+
+
+        
+
+
+        
+
+    
+
+    </style>
+
+   
+
+</head>
+
+
+
+
+
+
+
+<body>
+
+    <div class="container">
+
+        
+<h1 class="head">Hello!! I am Tanmay Kushawh</h1>
+    <img class="me" src="/assets-img/IMG_20250702_181455_130.webp" alt="">
+    <p>Here, you can check out what I'm working on. I try my best to create things with  </p>
+
+   
+     <div class="button-container">
+            <button class="contact" onclick="window.location.href='#contact'">
+                Contact Me
+            </button>
+            
+            <button class="INFO" onclick="window.location.href='#info'">
+                More Info
+            </button>
+            
+            <button class="Linkdin" onclick="window.open('https://www.linkedin.com/in/tanmay-kushwah-028239398', '_blank')">
+                LinkedIn
+            </button>
+
+            <button class="git" onclick="window.open('https:https://github.com/', '_blank')">
+                GitHub
+            </button>
+        </div>
+
+        <h2 class="head2">
+            ABOUT ME
+        </h2>
+
+        <p>
+            Hi, I’m Tanmay — a tech enthusiast passionate about building modern web experiences and exploring the future of AI. I work with HTML, CSS, and emerging tools to create clean, responsive, and user-friendly interfaces. I love solving real-world problems through technology and constantly improving my communication and development skills.
+        </p>
+        <p>
+            A focused and self-driven tech learner with strong problem-solving skills and a good sense of design. I’m quick at understanding concepts, consistent with practice, and always ready to improve. I ask the right questions, learn fast, and enjoy building clean and functional web interfaces using HTML, CSS, and modern tools.
+        </p>
+ 
+    </div>
+
+    <div class="container2">
+
+<div class="Project">
+
+        <h2 class="head2">
+            Projects
+        </h2>
+
+        <div>
+            <img  class="travel" src="/assets-img/wp2003930-travelling-wallpapers.jpg" alt="">
+            <button onclick="window.location.href='travel.html';" class="Visit-travel" >
+               Visit it
+            </button>
+        
+          <img class="hotel-img" src="/assets-img/uwp4647253 hotel.jpeg" alt="">  
+            <button onclick="window.location.href='hotel.html';" class="Visit-travel">
+            
+                Visit it
+            
+            </button>
+        </div>
+
+    
+
+
+
+    </div>
+
+
+    </div>
+
+    <div class="container2">
+
+         <h2 class="head2">
+            Contact
+        </h2>
+
+        <div class="contact-box" id="contact">
+
+            <form>
+            <input class="search" type="text" placeholder="Name" required>
+
+            <input class="search" type="text" placeholder="Contact no." required>
+
+            <input class="search" type="text" placeholder="E-mail" required>
+
+            <input class="search" type="text" placeholder="Or Batao kya Haal chaal" required>
+
+            
+
+            <button class="Submit" >
+                Submit
+            </button>
+                
+            </form>
+            
+            
+
+        </div>
+
+        
+        
+
+       
+    
+
+
+    
+
+    
+    
+    
+</body>
+</html>
+
+
+
+
+
+
